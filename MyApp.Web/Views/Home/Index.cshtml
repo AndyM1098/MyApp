@@ -1,0 +1,39 @@
+@model User
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to MyApp</h1>
+    <p>This is a demonstration of ASP.NET Core web application with a Core project for business logic.</p>
+</div>
+
+@if (Model != null)
+{
+    <div class="card mt-4">
+        <div class="card-header">
+            <h5>User Information</h5>
+        </div>
+        <div class="card-body">
+            <p><strong>Name:</strong> @Model.Name</p>
+            <p><strong>Email:</strong> @Model.Email</p>
+            <p><strong>Display:</strong> @Model.GetDisplayName()</p>
+            <p><strong>Location:</strong> @Model.City</p>
+            <p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
+        </div>
+    </div>
+}
+
+<div class="alert alert-info mt-4">
+    <h5>Greeting from Core Service:</h5>
+    <p>@ViewData["Greeting"]</p>
+</div>
+
+<div class="mt-4">
+    <h5>Project Structure:</h5>
+    <ul>
+        <li><strong>MyApp.Core</strong> - Business logic (Models, Services)</li>
+        <li><strong>MyApp.Web</strong> - Web presentation layer (Controllers, Views)</li>
+    </ul>
+    <p>This demonstrates separation of concerns where Core is independent and Web communicates with it.</p>
+</div>

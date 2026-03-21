@@ -1,0 +1,18 @@
+# Build results
+bin/
+obj/
+*.snupkg
+*.nupkg
+
+# IDE
+.vscode/
+.vs/
+*.sln.iml
+*.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local environment files
+appsettings.local.json
