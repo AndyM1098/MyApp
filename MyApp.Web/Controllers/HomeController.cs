@@ -25,15 +25,14 @@ public class HomeController : Controller
         ViewData["Greeting"] = greeting;
 
         // Example: Create Core model
-        var user = new User
+        var student = new Student
         {
-            Id = 1,
+            StudentId = 1,
             Name = "John Doe",
-            Email = "john@example.com",
-            City = "New York"
+            Email = "john@example.com"
         };
 
-        return View(user);
+        return View(student);
     }
 
     public IActionResult Greet(string name = "Guest")
@@ -44,6 +43,16 @@ public class HomeController : Controller
         var greeting = _greetingService.GetWelcome(name);
         ViewData["Message"] = greeting;
 
+        return View();
+    }
+
+    public IActionResult Projects()
+    {
+        return View();
+    }
+
+    public IActionResult About()
+    {
         return View();
     }
 

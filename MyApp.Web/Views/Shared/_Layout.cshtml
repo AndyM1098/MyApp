@@ -7,35 +7,30 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">MyApp</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-controller="Home" asp-action="Greet">Greet</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    @{
+        var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+    }
 
-    <main role="main" class="pb-3">
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" asp-controller="Home" asp-action="Index">MyApp</a>
+            <nav class="site-nav" aria-label="Primary">
+                <a class="@(currentAction == "Index" ? "active" : "")" asp-controller="Home" asp-action="Index">Intro</a>
+                <a class="@(currentAction == "Projects" ? "active" : "")" asp-controller="Home" asp-action="Projects">Projects</a>
+                <a class="@(currentAction == "About" ? "active" : "")" asp-controller="Home" asp-action="About">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main role="main" class="page-content">
         <div class="container">
             @RenderBody()
         </div>
     </main>
 
-    <footer class="border-top footer text-muted">
+    <footer class="site-footer">
         <div class="container">
-            &copy; 2026 - MyApp Andrew
+            <p>&copy; @DateTime.Now.Year MyApp. Built with ASP.NET Core.</p>
         </div>
     </footer>
 

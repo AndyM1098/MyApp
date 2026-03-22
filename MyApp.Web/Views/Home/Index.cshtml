@@ -1,39 +1,40 @@
-@model User
+@model Student
+
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Intro";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to MyApp</h1>
-    <p>This is a demonstration of ASP.NET Core web application with a Core project for business logic.</p>
-</div>
+<section class="hero">
+    <p class="eyebrow">Welcome</p>
+    <h1>Building ideas into polished web experiences.</h1>
+    <p class="lead">
+        This is your intro page. Use it to quickly explain what you build,
+        what technologies you use, and where visitors should click next.
+    </p>
+    <div class="hero-actions">
+        <a class="btn" asp-controller="Home" asp-action="Projects">View Projects</a>
+        <a class="btn btn-ghost" asp-controller="Home" asp-action="About">About Me</a>
+    </div>
+</section>
 
 @if (Model != null)
 {
-    <div class="card mt-4">
-        <div class="card-header">
-            <h5>User Information</h5>
+    <section class="panel">
+        <h2>Quick Demo Data</h2>
+        <p>This card is populated from your C# model and controller.</p>
+
+        <div class="grid-two">
+            <div>
+                <p><strong>Name:</strong> @Model.Name</p>
+                <p><strong>Email:</strong> @Model.Email</p>
+                <p><strong>Display:</strong> @Model.GetDisplayName()</p>
+            </div>
+            <div>
+                <p><strong>Student ID:</strong> @Model.StudentId</p>
+                <p><strong>Created:</strong> @Model.CreatedAt.ToString("yyyy-MM-dd")</p>
+                <p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
+                <p><strong>Greeting:</strong> @ViewData["Greeting"]</p>
+            </div>
         </div>
-        <div class="card-body">
-            <p><strong>Name:</strong> @Model.Name</p>
-            <p><strong>Email:</strong> @Model.Email</p>
-            <p><strong>Display:</strong> @Model.GetDisplayName()</p>
-            <p><strong>Location:</strong> @Model.City</p>
-            <p><strong>Status:</strong> @(Model.IsActive ? "Active" : "Inactive")</p>
-        </div>
-    </div>
+    </section>
 }
-
-<div class="alert alert-info mt-4">
-    <h5>Greeting from Core Service:</h5>
-    <p>@ViewData["Greeting"]</p>
-</div>
-
-<div class="mt-4">
-    <h5>Project Structure:</h5>
-    <ul>
-        <li><strong>MyApp.Core</strong> - Business logic (Models, Services)</li>
-        <li><strong>MyApp.Web</strong> - Web presentation layer (Controllers, Views)</li>
-    </ul>
-    <p>This demonstrates separation of concerns where Core is independent and Web communicates with it.</p>
-</div>
