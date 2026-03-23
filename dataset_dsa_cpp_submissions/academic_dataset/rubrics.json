@@ -1,0 +1,45 @@
+[
+  {
+    "assignment_id": "A1",
+    "criteria": [
+      { "criterion_id": "A1_C1", "name": "Correctness", "max_points": 50 },
+      { "criterion_id": "A1_C2", "name": "Code Quality", "max_points": 20 },
+      { "criterion_id": "A1_C3", "name": "Complexity", "max_points": 20 },
+      { "criterion_id": "A1_C4", "name": "Documentation", "max_points": 10 }
+    ]
+  },
+  {
+    "assignment_id": "A2",
+    "criteria": [
+      {
+        "criterion_id": "A2_C1",
+        "name": "Algorithm Implementation",
+        "max_points": 45
+      },
+      { "criterion_id": "A2_C2", "name": "Benchmark Design", "max_points": 30 },
+      {
+        "criterion_id": "A2_C3",
+        "name": "Analysis Write-up",
+        "max_points": 15
+      },
+      { "criterion_id": "A2_C4", "name": "Code Readability", "max_points": 10 }
+    ]
+  },
+  {
+    "assignment_id": "A3",
+    "criteria": [
+      { "criterion_id": "A3_C1", "name": "Graph Parsing", "max_points": 30 },
+      {
+        "criterion_id": "A3_C2",
+        "name": "Dijkstra Correctness",
+        "max_points": 60
+      },
+      { "criterion_id": "A3_C3", "name": "Performance", "max_points": 35 },
+      {
+        "criterion_id": "A3_C4",
+        "name": "Testing and Validation",
+        "max_points": 25
+      }
+    ]
+  }
+]

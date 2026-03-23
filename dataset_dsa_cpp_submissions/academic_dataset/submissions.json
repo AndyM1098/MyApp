@@ -1,0 +1,129 @@
+[
+  {
+    "submission_id": "SUB_A1_001",
+    "assignment_id": "A1",
+    "student_id": "STU_001",
+    "attempt": 1,
+    "submitted_at": "2026-02-01T20:11:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_01/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_002",
+    "assignment_id": "A1",
+    "student_id": "STU_002",
+    "attempt": 1,
+    "submitted_at": "2026-02-02T17:43:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_02/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_003",
+    "assignment_id": "A1",
+    "student_id": "STU_003",
+    "attempt": 1,
+    "submitted_at": "2026-02-02T21:03:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_03/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_004",
+    "assignment_id": "A1",
+    "student_id": "STU_004",
+    "attempt": 1,
+    "submitted_at": "2026-02-02T22:47:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_04/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_005",
+    "assignment_id": "A1",
+    "student_id": "STU_005",
+    "attempt": 1,
+    "submitted_at": "2026-02-03T00:12:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_05/main.cpp",
+    "status": "late_submitted"
+  },
+  {
+    "submission_id": "SUB_A1_006",
+    "assignment_id": "A1",
+    "student_id": "STU_006",
+    "attempt": 1,
+    "submitted_at": "2026-02-02T18:51:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_06/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_007",
+    "assignment_id": "A1",
+    "student_id": "STU_007",
+    "attempt": 1,
+    "submitted_at": "2026-02-01T13:39:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_07/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_008",
+    "assignment_id": "A1",
+    "student_id": "STU_008",
+    "attempt": 1,
+    "submitted_at": "2026-02-02T23:51:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_08/main.cpp",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A1_009",
+    "assignment_id": "A1",
+    "student_id": "STU_009",
+    "attempt": 1,
+    "submitted_at": "2026-02-04T02:03:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_09/main.cpp",
+    "status": "late_submitted"
+  },
+  {
+    "submission_id": "SUB_A1_010",
+    "assignment_id": "A1",
+    "student_id": "STU_010",
+    "attempt": 1,
+    "submitted_at": "2026-02-02T16:10:00Z",
+    "submission_path": "dataset_dsa_cpp_submissions/student_10/main.cpp",
+    "status": "submitted"
+  },
+
+  {
+    "submission_id": "SUB_A2_001",
+    "assignment_id": "A2",
+    "student_id": "STU_001",
+    "attempt": 1,
+    "submitted_at": "2026-02-23T19:25:00Z",
+    "submission_path": "submissions_temp/A2/STU_001.zip",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A2_002",
+    "assignment_id": "A2",
+    "student_id": "STU_002",
+    "attempt": 1,
+    "submitted_at": "2026-02-24T21:40:00Z",
+    "submission_path": "submissions_temp/A2/STU_002.zip",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A2_003",
+    "assignment_id": "A2",
+    "student_id": "STU_003",
+    "attempt": 1,
+    "submitted_at": "2026-02-24T22:59:00Z",
+    "submission_path": "submissions_temp/A2/STU_003.zip",
+    "status": "submitted"
+  },
+  {
+    "submission_id": "SUB_A2_004",
+    "assignment_id": "A2",
+    "student_id": "STU_004",
+    "attempt": 1,
+    "submitted_at": "2026-02-25T01:10:00Z",
+    "submission_path": "submissions_temp/A2/STU_004.zip",
+    "status": "late_submitted"
+  }
+]

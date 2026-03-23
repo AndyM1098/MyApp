@@ -1,0 +1,66 @@
+[
+  {
+    "submission_id": "SUB_A1_001",
+    "grader_user_id": "U_TA_001",
+    "graded_at": "2026-02-04T15:00:00Z",
+    "auto_score": 82,
+    "manual_adjustment": 4,
+    "final_score": 86,
+    "criterion_scores": [
+      { "criterion_id": "A1_C1", "score": 42 },
+      { "criterion_id": "A1_C2", "score": 16 },
+      { "criterion_id": "A1_C3", "score": 18 },
+      { "criterion_id": "A1_C4", "score": 10 }
+    ],
+    "feedback": "Solid implementation. Improve edge-case handling for empty list deletions.",
+    "plagiarism_flag": false
+  },
+  {
+    "submission_id": "SUB_A1_002",
+    "grader_user_id": "U_TA_002",
+    "graded_at": "2026-02-04T16:20:00Z",
+    "auto_score": 74,
+    "manual_adjustment": 0,
+    "final_score": 74,
+    "criterion_scores": [
+      { "criterion_id": "A1_C1", "score": 35 },
+      { "criterion_id": "A1_C2", "score": 15 },
+      { "criterion_id": "A1_C3", "score": 16 },
+      { "criterion_id": "A1_C4", "score": 8 }
+    ],
+    "feedback": "Functional, but complexity analysis is incomplete.",
+    "plagiarism_flag": false
+  },
+  {
+    "submission_id": "SUB_A1_005",
+    "grader_user_id": "U_TA_001",
+    "graded_at": "2026-02-05T09:12:00Z",
+    "auto_score": 90,
+    "manual_adjustment": -9,
+    "final_score": 81,
+    "criterion_scores": [
+      { "criterion_id": "A1_C1", "score": 46 },
+      { "criterion_id": "A1_C2", "score": 18 },
+      { "criterion_id": "A1_C3", "score": 18 },
+      { "criterion_id": "A1_C4", "score": 8 }
+    ],
+    "feedback": "Strong solution. Late penalty applied.",
+    "plagiarism_flag": false
+  },
+  {
+    "submission_id": "SUB_A2_004",
+    "grader_user_id": "U_TA_002",
+    "graded_at": "2026-02-27T11:31:00Z",
+    "auto_score": 68,
+    "manual_adjustment": -7,
+    "final_score": 61,
+    "criterion_scores": [
+      { "criterion_id": "A2_C1", "score": 31 },
+      { "criterion_id": "A2_C2", "score": 18 },
+      { "criterion_id": "A2_C3", "score": 8 },
+      { "criterion_id": "A2_C4", "score": 4 }
+    ],
+    "feedback": "Partial benchmark coverage. Late penalty and missing analysis section.",
+    "plagiarism_flag": false
+  }
+]

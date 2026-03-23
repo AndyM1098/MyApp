@@ -1,0 +1,82 @@
+[
+  {
+    "student_id": "STU_001",
+    "university_id": "20260001",
+    "full_name": "Alice Nguyen",
+    "email": "alice.nguyen@university.edu",
+    "program": "BSCS",
+    "year": 2
+  },
+  {
+    "student_id": "STU_002",
+    "university_id": "20260002",
+    "full_name": "Bob Johnson",
+    "email": "bob.johnson@university.edu",
+    "program": "BSCS",
+    "year": 3
+  },
+  {
+    "student_id": "STU_003",
+    "university_id": "20260003",
+    "full_name": "Charlie Kim",
+    "email": "charlie.kim@university.edu",
+    "program": "BSCS",
+    "year": 1
+  },
+  {
+    "student_id": "STU_004",
+    "university_id": "20260004",
+    "full_name": "Diana Patel",
+    "email": "diana.patel@university.edu",
+    "program": "BSCS",
+    "year": 2
+  },
+  {
+    "student_id": "STU_005",
+    "university_id": "20260005",
+    "full_name": "Ethan Brown",
+    "email": "ethan.brown@university.edu",
+    "program": "BSSE",
+    "year": 2
+  },
+  {
+    "student_id": "STU_006",
+    "university_id": "20260006",
+    "full_name": "Fatima Ali",
+    "email": "fatima.ali@university.edu",
+    "program": "BSCS",
+    "year": 3
+  },
+  {
+    "student_id": "STU_007",
+    "university_id": "20260007",
+    "full_name": "George Miller",
+    "email": "george.miller@university.edu",
+    "program": "BSCS",
+    "year": 2
+  },
+  {
+    "student_id": "STU_008",
+    "university_id": "20260008",
+    "full_name": "Hannah Lee",
+    "email": "hannah.lee@university.edu",
+    "program": "BSCS",
+    "year": 1
+  },
+  {
+    "student_id": "STU_009",
+    "university_id": "20260009",
+    "full_name": "Isaac Chen",
+    "email": "isaac.chen@university.edu",
+    "program": "BSSE",
+    "year": 4
+  },
+  {
+    "student_id": "STU_010",
+    "university_id": "20260010",
+    "full_name": "Julia Garcia",
+    "email": "julia.garcia@university.edu",
+    "program": "BSCS",
+    "year": 2
+  }
+]

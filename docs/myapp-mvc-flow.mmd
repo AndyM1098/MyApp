@@ -1,0 +1,9 @@
+flowchart LR
+  B[Browser] -->|HTTP request| P[Program.cs\nRouting + Middleware]
+  P --> C[HomeController Action]
+  C --> V[Views/Home/*.cshtml\nRazor View]
+  V --> L[Views/Shared/_Layout.cshtml]
+  L -->|links to static assets| S[wwwroot\ncss js images]
+  C -->|uses business/domain classes| Core[MyApp.Core\nModels + Services]
+  S -->|static files| B
+  V -->|rendered HTML response| B

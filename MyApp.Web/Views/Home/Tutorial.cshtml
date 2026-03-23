@@ -1,0 +1,19 @@
+@{
+    ViewData["Title"] = "Tutorial";
+    ViewData["students"] = new List<string> { "Alice", "Bob", "Charlie" };
+}
+
+<section>
+    <p>Gradepilot</p>
+    
+    @{
+        List<string>? students = ViewData["students"] as List<string>;
+        if (students != null)
+        {
+            foreach (var student in students)
+            {
+                <p>@student</p>
+            }
+        }
+    }
+</section>

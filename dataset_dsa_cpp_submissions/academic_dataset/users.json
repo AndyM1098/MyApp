@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": "U_INS_001",
+    "role": "instructor",
+    "full_name": "Dr. Elena Park",
+    "email": "elena.park@university.edu"
+  },
+  {
+    "user_id": "U_TA_001",
+    "role": "ta",
+    "full_name": "Mason Reed",
+    "email": "mason.reed@university.edu"
+  },
+  {
+    "user_id": "U_TA_002",
+    "role": "ta",
+    "full_name": "Priya Nair",
+    "email": "priya.nair@university.edu"
+  }
+]

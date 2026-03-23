@@ -1,0 +1,35 @@
+[
+  {
+    "assignment_id": "A1",
+    "section_id": "SEC_CS240_01",
+    "title": "Linked List Lab",
+    "description": "Implement insertion, deletion, and traversal for a singly linked list.",
+    "max_points": 100,
+    "weight_percent": 15,
+    "release_at": "2026-01-20T08:00:00Z",
+    "due_at": "2026-02-02T23:59:00Z",
+    "late_policy": "10 percent deduction per day, up to 3 days"
+  },
+  {
+    "assignment_id": "A2",
+    "section_id": "SEC_CS240_01",
+    "title": "Sorting Benchmark",
+    "description": "Compare quicksort, mergesort, and heapsort on varying input sizes.",
+    "max_points": 100,
+    "weight_percent": 20,
+    "release_at": "2026-02-10T08:00:00Z",
+    "due_at": "2026-02-24T23:59:00Z",
+    "late_policy": "10 percent deduction per day, up to 3 days"
+  },
+  {
+    "assignment_id": "A3",
+    "section_id": "SEC_CS240_01",
+    "title": "Graph Pathfinding Project",
+    "description": "Implement Dijkstra shortest path with input parsing and result reporting.",
+    "max_points": 150,
+    "weight_percent": 25,
+    "release_at": "2026-03-05T08:00:00Z",
+    "due_at": "2026-03-26T23:59:00Z",
+    "late_policy": "No late submissions accepted"
+  }
+]

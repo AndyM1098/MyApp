@@ -1,0 +1,22 @@
+[
+  {
+    "course_id": "C_DSA_CPP",
+    "semester_id": "SEM_2026_SPRING",
+    "course_code": "CS240",
+    "title": "Data Structures and Algorithms with C++",
+    "department": "Computer Science",
+    "credits": 4,
+    "sections": [
+      {
+        "section_id": "SEC_CS240_01",
+        "name": "Section 01",
+        "meeting_days": ["Mon", "Wed"],
+        "meeting_time": "10:00-11:15",
+        "location": "Engineering Hall 210",
+        "instructor_user_id": "U_INS_001",
+        "ta_user_ids": ["U_TA_001", "U_TA_002"],
+        "capacity": 40
+      }
+    ]
+  }
+]

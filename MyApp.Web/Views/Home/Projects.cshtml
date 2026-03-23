@@ -1,50 +1,14 @@
 @{
-    ViewData["Title"] = "Project";
+    ViewData["Title"] = "GradePilot";
 }
 
 <section class="hero compact">
-    <p class="eyebrow">Portfolio</p>
-    <h1>Featured Projects</h1>
-    <p class="lead">Use this page to highlight work samples, outcomes, and technologies used.</p>
+    <p>Welcome to GradePilot</p>
 </section>
 
-<section class="cards-grid">
-    <article class="panel project-card">
-        <h2>Project One</h2>
-        <p>
-            A short project summary goes here. Mention the challenge, what you built,
-            and the result in one or two sentences.
-        </p>
-        <ul>
-            <li>Tech: ASP.NET Core MVC</li>
-            <li>Focus: Responsive UI and clean architecture</li>
-            <li>Result: Fast and maintainable web app</li>
-        </ul>
-    </article>
-
-    <article class="panel project-card">
-        <h2>Project Two</h2>
-        <p>
-            Another example project section. You can replace this with screenshots,
-            links, and more detailed case-study content later.
-        </p>
-        <ul>
-            <li>Tech: C#, Razor, CSS</li>
-            <li>Focus: Strong UX and readability</li>
-            <li>Result: Clear, focused user flow</li>
-        </ul>
-    </article>
-
-    <article class="panel project-card">
-        <h2>Project Three</h2>
-        <p>
-            Add any side project or learning project here. This is a good place to show
-            growth and experiments.
-        </p>
-        <ul>
-            <li>Tech: .NET and Azure-ready architecture</li>
-            <li>Focus: Scalability and deployment planning</li>
-            <li>Result: Production-minded structure</li>
-        </ul>
-    </article>
-</section>
+<a class="tutorial-banner" asp-controller="Home" asp-action="Tutorial" aria-label="Enter tutorial">
+    <section class="panel tutorial-banner-panel">
+        <h2>Enter Tutorial</h2>
+        <p>Open the GradePilot walkthrough and continue into the full project page.</p>
+    </section>
+</a>

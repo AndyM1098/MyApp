@@ -1,0 +1,72 @@
+[
+  {
+    "enrollment_id": "ENR_001",
+    "student_id": "STU_001",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-10"
+  },
+  {
+    "enrollment_id": "ENR_002",
+    "student_id": "STU_002",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-10"
+  },
+  {
+    "enrollment_id": "ENR_003",
+    "student_id": "STU_003",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-11"
+  },
+  {
+    "enrollment_id": "ENR_004",
+    "student_id": "STU_004",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-11"
+  },
+  {
+    "enrollment_id": "ENR_005",
+    "student_id": "STU_005",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-11"
+  },
+  {
+    "enrollment_id": "ENR_006",
+    "student_id": "STU_006",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-11"
+  },
+  {
+    "enrollment_id": "ENR_007",
+    "student_id": "STU_007",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-12"
+  },
+  {
+    "enrollment_id": "ENR_008",
+    "student_id": "STU_008",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-12"
+  },
+  {
+    "enrollment_id": "ENR_009",
+    "student_id": "STU_009",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-12"
+  },
+  {
+    "enrollment_id": "ENR_010",
+    "student_id": "STU_010",
+    "section_id": "SEC_CS240_01",
+    "status": "enrolled",
+    "enrolled_on": "2026-01-12"
+  }
+]
